@@ -1,0 +1,134 @@
+1. List the significant goals of the HTML5 specification.
+Following are the most important goals of the HTML5 specification:
+Better semantic support for the web page structure with the introduction of new structural element tags
+Delivering a stricter parsing standard for:
+Ensuring consistent cross-browser behavior
+Offering excellent backward compatibility with documents written as per older HTML standards
+Simplifying error handling
+For replacing HTML4, XHTML, and the HTML DOM Level 2
+Offer interactive and rich content, such as videos and animation, without dependency on plugins
+Seamless operation across multiple devices and platforms
+2. Enumerate some of the most important new features in HTML5.
+Some of the best new features brought by the HTML5 specification are:
+Better error handling
+Enhanced support for embedding audio, graphics, and video content via <audio>, <canvas>, and <video> tags
+Extensions for the JavaScript API, such as for caching, drag-and-drop, geolocation, and storage
+More markup for replacing scripting
+Multi-device support
+New:
+Attributes for better document structure, such as <article>, <bdi>, <figcaption>, and <meter>
+Form controls, including <calendar>, <email>, <search>, and <url>
+Parsing rules for enhancing flexibility
+Semantic tags for complementing the structural logic of modern web applications, such as <aside>, <header>, <main>, and <section>
+Standard features like that of CSS, DOM, HTML, and J.S. for reducing the requirement of external plugins
+Support for:
+Offline editing
+Protocol and MIME handler registration
+Web SQL
+Web workers
+P.S. - Know what makes Novi HTML Visual Editor a great choice for web developers.
+Better error handling
+Enhanced support for embedding audio, graphics, and video content via <audio>, <canvas>, and <video> tags
+Extensions for the JavaScript API, such as for caching, drag-and-drop, geolocation, and storage
+More markup for replacing scripting
+Multi-device support
+New:
+Attributes for better document structure, such as <article>, <bdi>, <figcaption>, and <meter>
+Form controls, including <calendar>, <email>, <search>, and <url>
+Parsing rules for enhancing flexibility
+Semantic tags for complementing the structural logic of modern web applications, such as <aside>, <header>, <main>, and <section>
+Standard features like that of CSS, DOM, HTML, and J.S. for reducing the requirement of external plugins
+Support for:
+Offline editing
+Protocol and MIME handler registration
+Web SQL
+Web workers
+P.S. - Know what makes Novi HTML Visual Editor a great choice for web developers.
+
+3. What are the differences between HTML5 and HTML?
+Following are the various differences between HTML and HTML5:
+1. Attributes
+Attributes of Async, charset, and ping are available in HTML5. The same is not available in HTML.
+2. Doctype Declaration
+HTML features a long and complicated doctype declaration. The same is simple and easy in HTML5.
+3. Drag-and-Drop
+While HTML5 provides support for the drag-and-drop effect, HTML has no provision for it.
+4. Drawing Geometric Shapes
+There is no way of drawing shapes like circles, rectangles, and triangles in HTML. The same can be drawn in HTML5.
+5. High-level Video and Audio Support
+High-level audio and video support isn't a part of the HTML specifications. HTML5 offers out-of-the-box high-level audio and video support.
+6. In-text Use
+MathML and SVG can be used in text in HTML5. The same is not possible in HTML.
+7. JavaScript Support
+HTML doesn't provide support for running J.S. within the web browser. HTML5 allows JavaScript to run in the background using Web Workers.
+8. Mobile-ready
+HTML is not mobile-ready. HTML5 specifications involve emphasis on mobile-friendliness.
+9. Storage
+There is no persistent storage option available in HTML. Only browser cache is used as temporary storage. HTML5 allows permanent storage with an application cache, Web SQL database, and web storage.
+10. Vector Graphics
+
+HTML5 provides support for Canvas, SVG, and other virtual vector graphics. Implementing vector graphics in HTML is only possible using third-party plugins like Silverlight and VML.
+
+4. Enumerate important HTML5 technologies.
+HTML5 adds a number of new technologies to facilitate faster, better, and more interactive web page development. Important HTML5 technologies are:
+Canvas 2D
+CSS3
+Drag and Drop
+File API
+Geolocation API
+Microdata
+Offline Application
+SSE (Server-Sent Events)
+SVG (Scalable Vector Graphics)
+Web Intents
+Web Messaging
+Web Sockets
+Web Storage
+Web Workers
+5. What do you understand by web workers?
+The addition of web workers brings multithreading capability to JavaScript. These are scripts running in the background that doesn't necessitate the web page to wait for their completion.
+Hence, a user can interact freely with the web page while a web worker runs in the background. In order to achieve parallelism, web workers leverage thread-like message passing.
+
+6. What do you understand by HTML tags? How many tags are required to create a web page in HTML5?
+A set of characters enclosed within angular braces (<> or </>) that develop a formatted command for a web page is called an HTML tag. General syntax of an HTML5 tag is:
+<tag>.….</tag>
+Tags help in sending instructions to the web browser on what to display and how to display. A minimum of 3 tags are required for creating a web page in HTML5:
+<head>
+<body>
+<html>
+7. Please explain the various formatting tags in HTML5.
+HTML5 has a total of 12 formatting tags:
+<b> - Used for making the text bold.
+<big> - Used for increasing the font size of the text by one unit.
+<del> - Used to display the deleted text.
+<em> - Used for making the text italic with added semantics importance.
+<i> - Used to make the text italic.
+<ins> - Used for displaying the added text.
+<mark> - Used for highlighting the text.
+<small> - Used to decrease the font size of the text by one unit.
+<strong> - Used for telling the browser that the text is important.
+<sub> - Used for making the text a subscript.
+<sup> - Used to make the text a superscript.
+<u> - Used for underlining the text.
+Note: HTML5 formatting tags are grouped into two categories:
+Logical tags: Used for adding some logical or semantic value to the text.
+Physical tags: Used for adding to the visual appearance to the text
+8. Explain the <figure> tag in HTML5.
+The <figure> tag is used for specifying self-contained content, such as diagrams and photos, in an HTML5 web page. Although the content of the figure element is related to the main flow of the document, its position is independent of the same, i.e., if removed, it will not affect the main flow of the document.
+9. Explain the various new tags introduced by HTML5 in Media Elements.
+HTML5 introduces the following five new tags in Media Elements:
+<audio>: Eliminates the need for additional plugins for playing audio content like audio streams and music.
+<embed>: Embeds an external application or content
+<source>: Adds multimedia resources like audio, picture, and video.
+<track>: Adds caption files or subtitles while the multimedia file is playing.
+<video>: Adds video content like embedded video content, movie clips, and videos.
+10. What is a <meta> tag in HTML5?
+The <meta> tag offers metadata about the HTML5 document. This metadata is machine-parsable. Typically, meta elements are used for specifying:
+Author name
+Keywords
+Page description
+The metadata supplied by the <meta> tag is used by:
+Web browsers to know how to display content or reload a web page
+Search engines to know about keywords on a web page
+Other web services
+Note: HTML5 introduces a new method that allows web developers and designers to take control of the viewport with the <meta> tag.
